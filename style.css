@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #211951;
+    text-align: center;
+    transition: 1.5s;
+}
+.heading{
+    color: white;
+    background-color: #009FBD;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 9vmin;
+    color: black;
+    background-color: #15F5BA;
+}
+#reset-butn{
+    padding: 1rem;
+    font-size:medium;
+    border: none;
+    border-radius: 1rem;
+    background-color: #F4A261;
+    font-weight: bolder;
+}
+.win-msg-contain{
+    margin-top: 40px;
+}
+#win-msg{
+    font-size: 8vmin;
+        color: #FDFFD2;
+}
+.hide{
+    display: none;
+}
+.new-game{
+    background-color: #FDFFE2;
+    color: #1A2130;
+    height: 6vmin;
+    width: 18vmin;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 1rem ;
+    border: none;
+}
+.box{
+    transition: 1.5s;
+}
+h1{
+    font-size: 8vmin;
+    font-weight:900;
+}
+.playx{
+    width: 30vmin;
+    margin-left: 30vmin;
+    font-size: 7vmin;
+}
+.playo{
+    width: 30vmin;
+    margin-left: 150vmin;
+    margin-top: -5vmin;
+    font-size: 7vmin;
+}
+.home-btn{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: larger;
+    height: 9vmin;
+    width: 22vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #0D1282;
+}
+.home{
+    margin-left: 5vmin;
+    height: 5vmin;
+    width: 14vmin;
+    background-color: #EEEDED;
+    border: 5px solid #F0DE36;
+    margin-top: -5vmin;
+border-radius: 2.5vmin;
+justify-content: center;
+align-items: center;
+display: flex;    
+}
+.home:hover{
+    transition: 0.5s;
+    background-color: #F4A261;
+    border: 5px solid #F4A261;
+}
+.home-btn:hover{
+    transition: 0.5s;
+    color: black;
+}

@@ -1,0 +1,91 @@
+body{
+    background-color: #191516;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.outer{
+    border: 4px solid #AB2346;
+    height: 80vmin;
+    width: 65vmin;
+    margin-top: 10vmin;
+    border-radius: 5vmin;
+}
+.outer h1{
+    color: #F0F3FF;
+    margin-left: 9.5vmin;
+    font-size: 9vmin;
+}
+.infoo p{
+color: #C9DAEA;
+font-weight: bolder;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: larger;
+margin-left: 2vmin;
+}
+.infoo{
+    margin-left: 1vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 63vmin;
+    height: 25vmin;
+}
+i{
+    color: white;
+    margin-left: 2vmin;
+    margin-top: -14vmin;
+}
+#right{
+margin-top: 14vmin;
+margin-right: 1vmin;
+}
+.playgame{
+    margin-left: 21vmin;
+    margin-top: 10vmin;
+    height: 9vmin;
+    width: 22vmin;
+    background-color: #000103;
+    border: 6px solid #FF312E;
+border-radius: 2.5vmin;
+justify-content: center;
+align-items: center;
+display: flex;    
+}
+.play{
+    text-decoration: none;
+    color: #FFFFFA;
+        font-size: larger;
+    font-weight: bolder;
+    height: 9vmin;
+    width: 22vmin;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.playgame:hover{
+    transition: 1s;
+    background-color: #CFFCFF;
+    border: 6px solid #63C132;
+}
+.play:hover{
+    transition: 1s;
+    color: black;
+}
+.hides{
+    transition: 0.5s;
+    display: none;
+}
+.load{
+    color: darkturquoise;
+    font-size: 6vmin;
+    font-weight: bolder;
+    margin-left: 20vmin;
+    margin-top: 10vmin;
+}
+.hideload{
+    transition: 0.5s;
+    display: none;
+}
